@@ -1,0 +1,53 @@
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f0f4f8;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .card {
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 8px 40px rgba(26,35,50,.13);
+      padding: 52px 40px;
+      text-align: center;
+      max-width: 340px;
+      width: 90%;
+    }
+    .apt-label {
+      font-size: .72rem;
+      font-weight: 500;
+      color: #8898aa;
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      margin-bottom: 8px;
+    }
+    .apt-number {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      font-size: 4.5rem;
+      color: #e8a020;
+      line-height: 1;
+      margin-bottom: 40px;
+    }
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 100%;
+      padding: 16px 20px;
+      border-radius: 12px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      font-size: 1rem;
+      cursor: pointer;
+      border: none;
+      text-decoration: none;
+      transition: opacity .2s;
+      color: #fff;
+      background: #1a2332;
+    }
+    .btn:hover { opacity: .85; }
