@@ -51,3 +51,10 @@
       background: #1a2332;
     }
     .btn:hover { opacity: .85; }
+.titulo-pdf{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #444;
+}
