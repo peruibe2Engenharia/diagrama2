@@ -44,3 +44,13 @@ const btn2 = document.getElementById('download-tabela');
 btn2.href = criarPdf(PDF2_B64);
 
 btn2.download = `tabela-cargas-apto-${apt}.pdf`;
+
+console.log("Script carregado");
+
+console.log(btn1);
+
+console.log(btn2);
+
+console.log(PDF1_B64.length);
+
+console.log(PDF2_B64.length);
