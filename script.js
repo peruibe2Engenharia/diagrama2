@@ -31,7 +31,7 @@ function criarPdf(pdfBase64) {
 
 // Botão 1
 
-const btn1 = document.getElementById('pdf1-btn');
+const btn1 = document.getElementById('download-diagrama');
 
 btn1.href = criarPdf(PDF1_B64);
 
@@ -40,7 +40,7 @@ btn1.download = `diagrama-apto-${apt}.pdf`;
 
 // Botão 2
 
-const btn2 = document.getElementById('pdf2-btn');
+const btn2 = document.getElementById('download-tabela');
 
 btn2.href = criarPdf(PDF2_B64);
 
