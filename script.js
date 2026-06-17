@@ -2,8 +2,8 @@
 const apt = new URLSearchParams(location.search).get('apto') || '301';
 document.getElementById('apt-num').textContent = apt;
 
-// --- CONFIGURAÇÃO DO PDF 1 (Diagrama Elétrico) ---
-const URL_DIAGRAMA = "EL-13_DIAGR. E TAB CARGA_R02.pdf"; // Mude para o nome real do arquivo se for diferente
+
+const URL_DIAGRAMA = "EL-13_DIAGR. E TAB CARGA_R02 (2).pdf"; 
 const btnDiagrama = document.getElementById('download-diagrama');
 
 if (btnDiagrama) {
@@ -18,8 +18,8 @@ if (btnDiagrama) {
   });
 }
 
-// --- CONFIGURAÇÃO DO PDF 2 (Tabela de Cargas) ---
-const URL_TABELA = "EL-13_DIAGR. E TAB CARGA_R02.pdf"; // Substitua pelo nome do arquivo PDF da tabela
+
+const URL_TABELA = "EL-13_DIAGR. E TAB CARGA_R02 (3).pdf"; 
 const btnTabela = document.getElementById('download-tabela');
 
 if (btnTabela) {
